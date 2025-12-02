@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Altına kendi global stillerini ekleyebilirsin */
+body {
+    background-color: #f3f4f6; /* Hafif gri bir arka plan olsun */
+}
+html {
+    scroll-behavior: smooth; /* Kayarak gitmeyi sağlar */
+    scroll-padding-top: 100px; /* Header üstüne binmesin diye yukarıdan boşluk bırakır */
+}
